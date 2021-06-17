@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}" />
+        <title>Validation Project</title>
+    </head>
+
+    <body>
+        <header>
+            <li><a href="/">Validation</a></li>
+            <li><a href="/form">Submit</a></li>
+        </header>
+
+        <h1>Validation Project</h1>
+        <p>You're valid and you definitely belong, here's why...</p>
+
+        <div class="posts">
+            <table style="width:50%">
+                <tr>
+                  <th>Nickname</th>
+                  <th>Message</th>
+                </tr>
+                {% for row in data %}
+                <tr>
+                    <td>{{ row[0] }}</td>
+                    <td>{{ row[1] }}</td>
+                </tr>
+                {% endfor %}
+            </table>
+        </div>
+
+        <div class="links">
+
+        </div>
+
+        <footer>
+            <p>Made with love by Jason "iCookieStalker" Tuyen for Team Liquid's Pridemakers Event.</p>
+        </footer>
+    </body>
+</html>
