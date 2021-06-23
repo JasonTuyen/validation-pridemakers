@@ -1,6 +1,6 @@
 # validation-pridemakers
 
-This was a project that I created during [Team Liquid's PrideMakers Event](https://liquidhacks.teamliquid.com/).
+This was a project that I created during Team Liquid's PrideMakers Event.
 This project is an online space where people can share their story, some advice, or just kind words to one another.
 
 ## Built With
