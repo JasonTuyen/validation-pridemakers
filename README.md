@@ -14,7 +14,7 @@ This project is an online space where people can share their story, some advice,
 
 ## Demo
 
-[Validation Project Website](https://validation-pridemakers.herokuapp.com/)
+https://validation-pridemakers.herokuapp.com/
 
 ## Future Development Plans
 
