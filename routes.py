@@ -19,8 +19,9 @@ def form():
         return render_template('form.html')
     else:
         # request.method == 'POST'
-        name = request.form['name']
-        message = request.form['message']
-        cursor.execute("INSERT INTO posts (name, message) VALUES (%s,%s);", (name, message))
-        conn.commit()
-        return render_template('thanks.html')
+        #name = request.form['name']
+        #message = request.form['message']
+        #cursor.execute("INSERT INTO posts (name, message) VALUES (%s,%s);", (name, message))
+        #conn.commit()
+        #return render_template('thanks.html')
+        return render_template('sorry.html')
