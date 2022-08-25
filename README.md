@@ -12,7 +12,7 @@ This project is an online space where people can share their story, some advice,
 * Heroku
 * PostgreSQL
 
-## Demo
+## Demo (Will work until November 2022)
 
 https://validation-pridemakers.herokuapp.com/
 
@@ -32,3 +32,4 @@ https://validation-pridemakers.herokuapp.com/
 ## Future Development Plans
 
 * Verification of user posts
+* Find new free hosting, Heroku will no longer provide free hosting after November 2022
