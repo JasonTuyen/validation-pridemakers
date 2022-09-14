@@ -26,7 +26,11 @@ https://validation-pridemakers.herokuapp.com/
 	pip install -r /path/to/requirements.txt
 	```
 3. Navigate into your new site’s directory and happy coding!
-4. Pay attention to the .env file so that you can connect your own database.
+4. Remember to create .env file to access your own database.
+	```shell
+	# replace "xyz" with link to your database
+	DATABASE_URL=xyz
+	```
 
 
 ## Future Development Plans
