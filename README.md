@@ -12,9 +12,11 @@ This project is an online space where people can share their story, some advice,
 * Heroku
 * PostgreSQL
 
-## Demo (Will work until November 2022)
+## Demo (Link live until Nov. '22 due to Heroku updates)
 
 https://validation-pridemakers.herokuapp.com/
+
+![](Demo.gif)
 
 
 ## Installation Instructions
